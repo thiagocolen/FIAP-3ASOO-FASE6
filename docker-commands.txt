@@ -1,0 +1,28 @@
+docker search httpd
+
+docker pull httpd
+
+docker images
+
+docker run -d httpd
+
+docker stop 78a34a8911d3
+
+docker rm 78a34a8911d3
+
+docker run --name teste -d -p 8081:80 httpd
+
+docker stop ddac87322113
+
+docker build -t teste .
+
+docker stop dbc9dcc42c58d92f02a5989d8c73da18f45bb1d0eba3119bfff00970b8665ef0
+
+docker build -t my-image . 
+
+docker ps -a
+
+docker run --name my-image-on-fly -d -p 3000:234 my-image
+docker run --name my-image-on-fly -d my-image
+
+docker stop 499f84827f04
