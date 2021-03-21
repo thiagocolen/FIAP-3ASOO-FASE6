@@ -13,7 +13,7 @@ RUN npm i
 COPY . /app
 
 # Tell Docker we are going to use this port
-EXPOSE 3000
+EXPOSE 8080
 
 # The command to run our app when the container is run
 CMD ["node", "./app/index.js"]
