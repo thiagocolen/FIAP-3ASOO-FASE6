@@ -4,11 +4,14 @@
   "description": "",
   "main": "./app/index.js",
   "scripts": {
-    "start": "node ./app/index.js"
+    "start": "node ./app/index.js",
+    "dev": "nodemon app/index.js",
+    "generateRestaurantes": "node geradorRestaurantes.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
   }
 }
