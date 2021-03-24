@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "23882bf2-5601-491b-a3ce-a7e67c9142e1",
+		"name": "RM337281-FIAP-FASE-6",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/restaurantes/getAll",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "lat",
+							"value": "1000",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "long",
+							"value": "2000",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "radius",
+							"value": "200",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/restaurantes/getAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restaurantes",
+						"getAll"
+					]
+				},
+				"description": "fiap-fase-6"
+			},
+			"response": []
+		}
+	]
+}
