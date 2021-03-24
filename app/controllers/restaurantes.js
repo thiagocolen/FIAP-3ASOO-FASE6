@@ -6,7 +6,7 @@ const restauranteServiceInstance = new restauranteService()
 
 router.get('/getAll', function (req, res, next) {
     res.status(200).send(
-        restauranteServiceInstance.getNearRestaurantes('1000', '1000')
+        restauranteServiceInstance.getNearRestaurantes('1000', '1000', '300')
     );
 }); 
 

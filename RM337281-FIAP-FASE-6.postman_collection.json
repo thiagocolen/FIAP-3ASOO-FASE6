@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "23882bf2-5601-491b-a3ce-a7e67c9142e1",
+		"_postman_id": "68d7c0f9-a118-4396-911f-8a59b673c881",
 		"name": "RM337281-FIAP-FASE-6",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://localhost:8080/restaurantes/getAll",
+			"name": "http://fiap-3-asoo-fase-6-teste.apps.na45.prod.nextcle.com/restaurantes/getAll",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -21,30 +21,31 @@
 						{
 							"key": "lat",
 							"value": "1000",
-							"description": "",
 							"type": "text"
 						},
 						{
 							"key": "long",
 							"value": "2000",
-							"description": "",
 							"type": "text"
 						},
 						{
 							"key": "radius",
 							"value": "200",
-							"description": "",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8080/restaurantes/getAll",
+					"raw": "http://fiap-3-asoo-fase-6-teste.apps.na45.prod.nextcle.com/restaurantes/getAll",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"fiap-3-asoo-fase-6-teste",
+						"apps",
+						"na45",
+						"prod",
+						"nextcle",
+						"com"
 					],
-					"port": "8080",
 					"path": [
 						"restaurantes",
 						"getAll"
