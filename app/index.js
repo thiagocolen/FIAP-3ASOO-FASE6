@@ -10,7 +10,7 @@ app.use(express.urlencoded({
 app.get('/', (req, res) => {
   res.send(
     '<br>' +
-    '<h1>Wellcome to Ifooo API</h1>' + 
+    '<h1>Wellcome to Ifood API</h1>' + 
     '<hr>' +
     '<br>' +
     'http://teste-fiap-3-asoo-fase-6.apps.na45.prod.nextcle.com/restaurantes/getAll' +
