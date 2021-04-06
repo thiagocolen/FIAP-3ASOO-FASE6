@@ -10,7 +10,7 @@ app.use(express.urlencoded({
 app.get('/', (req, res) => {
   res.send(
     '<br>' +
-    '<h1>Wellcome to Ifooo API</h1>' +
+    '<h1>Wellcome to Ifooo API</h1>' + 
     '<hr>' +
     '<br>' +
     'http://teste-fiap-3-asoo-fase-6.apps.na45.prod.nextcle.com/restaurantes/getAll' +
@@ -20,7 +20,9 @@ app.get('/', (req, res) => {
     '<li><h3>try POST: restaurantes/getAll</h3>' +
     '<p>example body: { lat: 1287, long: 3764, radius: 533 }</p>' +
     '</li>' +
-    '<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><small>don`t worry</small><br><br>'
+    '<br>' + 
+    '<small>version 1.1.0</small>' + 
+    '<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><small>don`t worry</small><br><br>'
   )
 })
 
