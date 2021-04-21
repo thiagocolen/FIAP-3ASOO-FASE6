@@ -23,10 +23,10 @@
 					"urlencoded": []
 				},
 				"url": {
-					"raw": "http://teste-fiap-3-asoo-fase-6.apps.na45.prod.nextcle.com/restaurantes/getAll",
+					"raw": "http://fiap-3-asoo-fase-6-git-fiap.apps.na45.prod.nextcle.com/restaurantes/getAll",
 					"protocol": "http",
 					"host": [
-						"teste-fiap-3-asoo-fase-6",
+						"fiap-3-asoo-fase-6-git-fiap",
 						"apps",
 						"na45",
 						"prod",
@@ -73,10 +73,10 @@
 					]
 				},
 				"url": {
-					"raw": "http://teste-fiap-3-asoo-fase-6.apps.na45.prod.nextcle.com/restaurantes/getAll",
+					"raw": "http://fiap-3-asoo-fase-6-git-fiap.apps.na45.prod.nextcle.com/restaurantes/getAll",
 					"protocol": "http",
 					"host": [
-						"teste-fiap-3-asoo-fase-6",
+						"fiap-3-asoo-fase-6-git-fiap",
 						"apps",
 						"na45",
 						"prod",
@@ -97,15 +97,18 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://teste-fiap-3-asoo-fase-6.apps.na45.prod.nextcle.com",
+					"raw": "http://fiap-3-asoo-fase-6-git-fiap.apps.na45.prod.nextcle.com/",
 					"protocol": "http",
 					"host": [
-						"teste-fiap-3-asoo-fase-6",
+						"fiap-3-asoo-fase-6-git-fiap",
 						"apps",
 						"na45",
 						"prod",
 						"nextcle",
 						"com"
+					],
+					"path": [
+						""
 					]
 				}
 			},
