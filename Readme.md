@@ -1,8 +1,8 @@
-# RM337281-FIAP-FASE-6
+# FIAP-FASE-6
 
-## Ifood API
+## Ifood API - Serviço de Busca de Restaurantes por Raio
 
-### URL: http://teste-fiap-3-asoo-fase-6.apps.na45.prod.nextcle.com/restaurantes/getAll
+### URL: http://fiap-3-asoo-fase-6-git-fiap.apps.na45.prod.nextcle.com/restaurantes/getAll
 
 - GET: restaurantes/getAll
 - POST: restaurantes/getAll
@@ -19,7 +19,7 @@
 
 --------------------
 
-
+    
 - Lucas Alexandre Alves da Silva - lucas.alexandre1@hotmail.com
   
 - Thiago Alberto de Souza Colen - thiago.souzacolen@gmail.com
